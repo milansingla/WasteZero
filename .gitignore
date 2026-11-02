@@ -1,0 +1,84 @@
+# ==============================
+# ENVIRONMENT VARIABLES (CRITICAL)
+# ==============================
+.env
+.env.*
+!.env.example
+
+backend/node_modules/
+frontend/node_modules/
+# ==============================
+# NODE DEPENDENCIES
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================
+# BUILD FILES
+# ==============================
+dist/
+build/
+.next/
+out/
+coverage/
+
+# ==============================
+# LOG FILES
+# ==============================
+*.log
+logs/
+*.pid
+
+# ==============================
+# DATABASE FILES
+# ==============================
+*.sqlite
+*.sqlite3
+*.db
+
+# ==============================
+# OS GENERATED FILES
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# IDE / EDITOR FILES
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# TEMP FILES
+# ==============================
+tmp/
+temp/
+.cache/
+
+# ==============================
+# SECRETS & KEYS (VERY IMPORTANT)
+# ==============================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+
+# ==============================
+# CONFIG FILES WITH SECRETS
+# ==============================
+config/local.js
+config/development.js
+
+# ==============================
+# AWS / CLOUD
+# ==============================
+.aws/
+.ssh/
