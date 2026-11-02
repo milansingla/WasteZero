@@ -32,6 +32,12 @@
   <i>Recycle karo, rewards pao, aur city ko saaf rakho!</i>
 </p>
 
+## App preview
+
+<p align="center">
+  <img src="frontend/public/wastezero-home-preview.png" alt="WasteZero homepage preview focused on Rajpura and Banur, Punjab" width="100%" />
+</p>
+
 ---
 
 ## Working-copy redesign notes
